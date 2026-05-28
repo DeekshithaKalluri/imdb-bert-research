@@ -110,6 +110,10 @@ pip install transformers==4.40.0 datasets evaluate accelerate scikit-learn torch
 
 ---
 
+📄 License
+This project is licensed under the MIT License — see the LICENSE file for details.
+
+---
 <div align="center">
 
 **🔗 Related:** [Original Sentiment Analysis (CIS 732)](https://github.com/DeekshithaKalluri/SentimentAnalysis)
