@@ -1,0 +1,3 @@
+model,accuracy,f1,auc_roc,train_time_sec
+Logistic Regression,0.8946,0.895,0.9602,42.5
+LinearSVC,0.896,0.8957,0.9618,16.9

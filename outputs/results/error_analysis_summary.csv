@@ -1,0 +1,11 @@
+,value
+total_test,25000.0
+total_correct,23079.0
+total_errors,1921.0
+overall_accuracy,0.9232
+false_positives,1114.0
+false_negatives,807.0
+high_conf_errors_gt90,1541.0
+acc_short_reviews,0.9353
+acc_medium_reviews,0.9384
+acc_long_reviews,0.8703

@@ -1,0 +1,4 @@
+model,accuracy,f1,auc_roc,acc_gain_vs_svc
+Logistic Regression,0.8946,0.895,0.9602,-0.0014
+LinearSVC,0.896,0.8957,0.9618,0.0
+BERT (fine-tuned),0.9232,0.9241,0.9767,0.0272
