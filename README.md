@@ -111,7 +111,8 @@ pip install transformers==4.40.0 datasets evaluate accelerate scikit-learn torch
 ---
 
 📄 License
-This project is licensed under the MIT License — see the LICENSE file for details.
+
+MIT — see [LICENSE](LICENSE)
 
 ---
 <div align="center">
