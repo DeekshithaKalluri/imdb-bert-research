@@ -2,7 +2,7 @@
 
 # 🎬 IMDb BERT Sentiment Analysis
 
-![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python) ![PyTorch](https://img.shields.io/badge/PyTorch-2.0-red?logo=pytorch) ![BERT](https://img.shields.io/badge/BERT-base--uncased-yellow?logo=huggingface) ![Dataset](https://img.shields.io/badge/IMDb-50K_Reviews-green) ![Status](https://img.shields.io/badge/status-complete-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python) ![PyTorch](https://img.shields.io/badge/PyTorch-2.0-red?logo=pytorch) ![BERT](https://img.shields.io/badge/BERT-base--uncased-yellow?logo=huggingface) ![Dataset](https://img.shields.io/badge/IMDb-50K_Reviews-green) ![Status](https://img.shields.io/badge/status-complete-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue)
 
 **A research-grade NLP study fine-tuning BERT on 50K IMDb reviews — with error analysis, bias audit by review length, and a reproducible model card.**
 
@@ -20,6 +20,7 @@
 | `outputs/results/` | CSV results for all models and error analysis |
 | `config.py` | All hyperparameters and random seeds |
 | `requirements.txt` | Locked dependency versions |
+| `MODEL_CARD.md` | HuggingFace-standard model card |
 
 ---
 
@@ -110,13 +111,24 @@ pip install transformers==4.40.0 datasets evaluate accelerate scikit-learn torch
 
 ---
 
-📄 License
+## 📄 License
 
-MIT — see [LICENSE](LICENSE)
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
+
 <div align="center">
 
 **🔗 Related:** [Original Sentiment Analysis (CIS 732)](https://github.com/DeekshithaKalluri/SentimentAnalysis)
 
 </div>
+
+---
+
+## 📚 References & Acknowledgements
+
+- **Dataset:** Maas, A. et al. (2011). [Learning Word Vectors for Sentiment Analysis](https://aclanthology.org/P11-1015/). ACL. — `stanfordnlp/imdb`
+- **Base Model:** Devlin, J. et al. (2018). [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805). — `bert-base-uncased`
+- **Transformers Library:** Wolf, T. et al. (2020). [HuggingFace Transformers](https://github.com/huggingface/transformers). — Fine-tuning pipeline and tokenizer
+- **PyTorch:** Paszke, A. et al. (2019). [PyTorch: An Imperative Style, High-Performance Deep Learning Library](https://arxiv.org/abs/1912.01703).
+- **scikit-learn:** Pedregosa, F. et al. (2011). [Scikit-learn: Machine Learning in Python](https://jmlr.org/papers/v12/pedregosa11a.html). — Classical baselines
